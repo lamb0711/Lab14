@@ -4,7 +4,8 @@ public class SpeedLimitter {
 	private int speed = 0;
 	private int limit = 0;
 	public speedLimitter(int limit, int speed) {
-		
+		this.limit = limit;
+		this.speed = speed;
 	}
 	
 	public void warnSpeedLimit() {
