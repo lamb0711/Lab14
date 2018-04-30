@@ -8,6 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
 		Random rand = new Random();
+		int limit = 0, speed = 0;
 	}
 
 }
