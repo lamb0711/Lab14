@@ -13,9 +13,12 @@ public class SpeedLimitter {
 			if(this.speed > this.limit) {
 				throw new Exception("Speed Limit"+ this.limit + "km exceeded!");
 			}
+			System.out.println("You are a law abiding citizen");
 		}catch(Exception e) {
-			
+			System.out.println(e.getMessage());
+			System.out.println("You are being fined. ");
 		}
+		System.out.println("Your current speed: " + this.speed);
 	}
 
 }
