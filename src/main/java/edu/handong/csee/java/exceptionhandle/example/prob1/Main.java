@@ -12,6 +12,8 @@ public class Main {
 		
 		System.out.print("Set the speed limit, officer: ");
 		limit = keyboard.nextInt();
+		speed = rand.nextInt(101);
+		
 		}
 
 }
