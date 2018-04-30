@@ -9,7 +9,13 @@ public class SpeedLimitter {
 	}
 	
 	public void warnSpeedLimit() {
-		
+		try {
+			if(this.speed > this.limit) {
+				throw new Exception("Speed Limit"+ this.limit + "km exceeded!");
+			}
+		}catch(Exception e) {
+			
+		}
 	}
 
 }
