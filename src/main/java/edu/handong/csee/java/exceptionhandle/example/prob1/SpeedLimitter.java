@@ -6,5 +6,9 @@ public class SpeedLimitter {
 	public speedLimitter(int limit, int speed) {
 		
 	}
+	
+	public void warnSpeedLimit() {
+		
+	}
 
 }
