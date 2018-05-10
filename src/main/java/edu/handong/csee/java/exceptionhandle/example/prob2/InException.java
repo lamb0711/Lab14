@@ -3,10 +3,10 @@ package edu.handong.csee.java.exceptionhandle.example.prob2;//package name
 import java.util.InputMismatchException;//use InputMismatchException class
 import java.util.Scanner;//use scanner class
 
-public class In_exception {//class name
+public class InException {//class name
 	private int x=0, y=0;//declare and initialize x,y variable
 
-	public In_exception() {//constructor
+	public InException() {//constructor
 	}
 
 	public void distinguishError() {//distinguishError method
