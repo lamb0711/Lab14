@@ -18,7 +18,7 @@ public class MyMain {//Main class
 			throw new MyException("String val is null");//instantiation MyException class and throw this message to catch
 		}
 		else System.out.println("String val is: "+str);//if string is different to null, print message with str
-		
+
 	}
 
 }
