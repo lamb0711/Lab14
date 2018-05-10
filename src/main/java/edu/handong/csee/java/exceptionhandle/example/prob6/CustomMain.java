@@ -29,7 +29,7 @@ public class CustomMain {//Main class
 				}
 			}catch(Exception e) {//if it cause Exception. implement this
 				System.out.println(e.getMessage());//print error message in e
-				continue;//repeat loop
+				continue;// repeat loop
 			}
 		}
 
